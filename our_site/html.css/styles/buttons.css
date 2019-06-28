@@ -1,10 +1,10 @@
 /* Button Styles */
 .btn {
-    background-color: #cea135;
+    background-color: #ffcb9a;
     color: #11122B;
     font-size: 1.25em;
     padding: 10px 25px;
-    border: 1px solid #cea135;
+    border: 1px solid #ffcb9a;
     border-radius: 2px;
     outline: none;
     transition: 0.3s;

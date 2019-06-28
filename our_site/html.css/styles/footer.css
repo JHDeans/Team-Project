@@ -1,13 +1,13 @@
 /* Footer Styles */
 .footer-wrapper {
-    background-color: #11122B;
+    background: linear-gradient(darkblue, #11122B);
     color: #cbcbcb;
     font-family: "Ubuntu Condensed", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
+    height: 200px;
     margin-top: -4px;
 }
 
@@ -27,7 +27,7 @@
 
 .footer-wrapper > .footer-phone-hours > .hours {
     font-size: 0.8em;
-    color: #cea135;
+    color: #ffcb9a;
     text-transform: uppercase;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .footer-wrapper > .social-media-icons-wrapper a:hover {
-    color: #cea135;
+    color: #ffcb9a;
 }
 
 .footer-wrapper > .copyright-wrapper {

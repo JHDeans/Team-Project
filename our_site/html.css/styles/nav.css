@@ -1,8 +1,8 @@
 
 /* Common Nav Styles */
 .navigation-wrapper {
-    height: 190px;
-    background-color: #11122b;
+    height: 100px;
+    background: linear-gradient(#11122b, darkblue);
     color: #cbcbcb;
     /* Flexbox Container */
     display: flex;
@@ -11,7 +11,7 @@
     padding: 60px 100px 60px 100px;
 }
 
-/* center column style */
+/* left column style */
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
@@ -47,8 +47,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 42px;
-    width: 500px;
+    width: 600px;
     }
+
+.navigation-wrapper > .center-column > .subtitle {
+    display: flex;
+    justify-content: center;
+}
 
 .navigation-wrapper > .center-column > .banner-image {
     display: flex;
@@ -73,14 +78,14 @@
 
 .links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
-    color: #cbcbcb;
+    color: #fff8f7;
     text-decoration: none;
     transition: 0.5s;
 }
 
 /* adding hover lets you change the hovere'd state of the text */
 .links-wrapper > .nav-link a:hover {
-    color: #cea135;
+    color: #ffcb9a;
     letter-spacing: 2px;
 }
 
@@ -93,7 +98,7 @@
 
 .navigation-wrapper > .right-column >.address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: whitesmoke;
+    color: #fff8f7;
     text-align: right;
 }
 
@@ -111,16 +116,23 @@
 }
 
 .navigation-wrapper > .right-column > .address-wrapper a:hover {
-    color: #cea135;
+    color: #ffcb9a;
 }
 
 .navigation-wrapper > .right-column > .contact-icon a {
-    color: #cbcbcb;
+    color: #fff8f7;
     transition: .5s;
 }
 
 .navigation-wrapper > .right-column > .contact-icon a:hover {
-    color: #cea135;
+    color: #ffcb9a;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    background-color: darkblue;
 }
 
 
