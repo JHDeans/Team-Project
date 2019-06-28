@@ -2,8 +2,8 @@
 /* Common Nav Styles */
 .navigation-wrapper {
     height: 190px;
-    background-color: #11122b;
-    color: #cbcbcb;
+    background-color: #2c3531;
+    color: #fff8f7;
     /* Flexbox Container */
     display: flex;
     justify-content: space-between;
@@ -73,14 +73,14 @@
 
 .links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
-    color: #cbcbcb;
+    color: #fff8f7;
     text-decoration: none;
     transition: 0.5s;
 }
 
 /* adding hover lets you change the hovere'd state of the text */
 .links-wrapper > .nav-link a:hover {
-    color: #cea135;
+    color: #ffcb9a;
     letter-spacing: 2px;
 }
 
@@ -93,7 +93,7 @@
 
 .navigation-wrapper > .right-column >.address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: whitesmoke;
+    color: #fff8f7;
     text-align: right;
 }
 
@@ -111,16 +111,16 @@
 }
 
 .navigation-wrapper > .right-column > .address-wrapper a:hover {
-    color: #cea135;
+    color: #ffcb9a;
 }
 
 .navigation-wrapper > .right-column > .contact-icon a {
-    color: #cbcbcb;
+    color: #fff8f7;
     transition: .5s;
 }
 
 .navigation-wrapper > .right-column > .contact-icon a:hover {
-    color: #cea135;
+    color: #ffcb9a;
 }
 
 
