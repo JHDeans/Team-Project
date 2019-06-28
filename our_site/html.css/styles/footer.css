@@ -1,6 +1,6 @@
 /* Footer Styles */
 .footer-wrapper {
-    background-color: #11122B;
+    background-color: #2c3531;
     color: #cbcbcb;
     font-family: "Ubuntu Condensed", sans-serif;
     display: flex;
@@ -27,7 +27,7 @@
 
 .footer-wrapper > .footer-phone-hours > .hours {
     font-size: 0.8em;
-    color: #cea135;
+    color: #ffcb9a;
     text-transform: uppercase;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .footer-wrapper > .social-media-icons-wrapper a:hover {
-    color: #cea135;
+    color: #ffcb9a;
 }
 
 .footer-wrapper > .copyright-wrapper {
