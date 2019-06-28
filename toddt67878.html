@@ -1,4 +1,30 @@
-input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+<!DOCTYPE html>
+<head>
+<style>
+  div.sample_attach, a.sample_attach {
+  width: 100px;
+  border: 1px solid #DFAD00;
+  background: #FFFFEE;
+  padding: 0px 5px;
+  font-weight: 900;
+  color: #00009C;
+  text-align: center;
+} 
+</style>
+<script type=”text/javascript” src=”localSearchBox.js”>
+</script>
+</head>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+<body>
+    <div class=”sample_attach” id=”src_parent”>
+        Site Search
+        </div>
+        <form class=”sample_attach” id=”src_child”>
+        <b>Enter search terms:</b><br>
+        <input style=”margin-bottom: 1px; width: 170px;” type=”text” name=”terms”><br>
+        <input type=”submit” value=”Submit”></center>
+        </form>
+        
 
 <ul id="myMenu">
   <li><a href="#">HTML</a></li>
@@ -11,3 +37,7 @@ input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." ti
   <li><a href="#">Bootstrap</a></li>
   <li><a href="#">Node.js</a></li>
 </ul>
+
+<script type=”text/javascript” src=”localSearchBox.js”></script>
+
+</body>
