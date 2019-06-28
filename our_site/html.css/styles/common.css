@@ -1,0 +1,11 @@
+/* Common styles */
+body {
+    margin: 0px;
+    /* copied off the website, this flows roboto and if not available it uses sans-serif */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', serif;
+}
+

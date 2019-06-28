@@ -1,0 +1,130 @@
+
+/* Common Nav Styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox Container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 60px 100px;
+}
+
+/* center column style */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: .8em;
+
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* center column style */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+    }
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* adding hover lets you change the hovere'd state of the text */
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* right column style */
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column >.address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: .9em;
+    transition: .5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #cbcbcb;
+    transition: .5s;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135;
+}
+
+
+/* .left-column > .contact-hours-wrapper {
+    color: royalblue; 
+    text-decoration: underline;
+} */
