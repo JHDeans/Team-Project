@@ -1,8 +1,9 @@
 /* hero section styles */
 .hero-section {
-    background-image: url(../images/backgrounds/fries-hero-bg.jpg);
+
     padding: 100px;
     height: 300px;
+    background-color: #11122B;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
