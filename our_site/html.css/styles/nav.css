@@ -1,8 +1,8 @@
 
 /* Common Nav Styles */
 .navigation-wrapper {
-    height: 190px;
-    background-color: #11122b;
+    height: 100px;
+    background: linear-gradient(#11122b, darkblue);
     color: #cbcbcb;
     /* Flexbox Container */
     display: flex;
@@ -11,7 +11,7 @@
     padding: 60px 100px 60px 100px;
 }
 
-/* center column style */
+/* left column style */
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
@@ -47,8 +47,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 42px;
-    width: 500px;
+    width: 600px;
     }
+
+.navigation-wrapper > .center-column > .subtitle {
+    display: flex;
+    justify-content: center;
+}
 
 .navigation-wrapper > .center-column > .banner-image {
     display: flex;
@@ -121,6 +126,13 @@
 
 .navigation-wrapper > .right-column > .contact-icon a:hover {
     color: #cea135;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    background-color: darkblue;
 }
 
 
