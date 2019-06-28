@@ -2,7 +2,7 @@
 .hero-section {
 
     padding: 100px;
-    height: 300px;
+    height: 1000px;
     background-color: #11122B;
     background-attachment: fixed;
     background-position: center;
@@ -11,20 +11,31 @@
 }
 
 .hero-section > .top-heading {
-    background-color: #2c3531;
+    background: radial-gradient(#11122b, darkblue, #11122b, darkblue, #11122b, darkblue);
     color: #fff8f7;
     width: 290px;
     border-radius: 2px;
     padding: 1px 20px;
+    border-radius: 50px;
+
 }
 
-.hero-section > .bottom-heading {
-    background-color: #116466;
-    color: #2c3531;
-    width: 107px;
-    border-radius: 2px;
-    padding: 1px 20px;
-    margin-top: 15px;
+.hero-section > .news-wrapper {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+}
+
+.hero-section > .news-wrapper > .news-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
 }
 
 /* Features Section Styles */
