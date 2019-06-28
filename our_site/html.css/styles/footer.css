@@ -11,8 +11,8 @@
     margin-top: -4px;
 }
 
-.footer-wrapper > .footer-logo img {
-    width: 180px;
+.footer-wrapper > .footer-logo {
+    width: 100px;
     height: 100%;
     /* filter: brightness(50%) */
     filter: opacity(50%)
